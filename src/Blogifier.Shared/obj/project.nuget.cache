@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "HYoE5n/e9Tkf2ZsOMbxqbXE1UD1RLVPlMuewC9//QdU09zM7KGO09+fuIrlOSGBKMfpLUMWkCpKDXQ7B6/0Jlw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Faust\\Desktop\\Blogifier\\src\\Blogifier.Shared\\Blogifier.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Faust\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Faust\\.nuget\\packages\\microsoft.extensions.localization\\6.0.1\\microsoft.extensions.localization.6.0.1.nupkg.sha512",
+    "C:\\Users\\Faust\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\6.0.1\\microsoft.extensions.localization.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Faust\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Faust\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Faust\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Faust\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
