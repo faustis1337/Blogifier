@@ -8,7 +8,7 @@ pipeline {
         stage("Build UI") {
             steps {
                 dir("src/Blogifier") {
-                    //sh "dotnet publish Blogifier.csproj -o ../../outputs"
+                    sh "dotnet publish Blogifier.csproj -o ../../outputs"
                 }
             }
         }
@@ -26,7 +26,7 @@ pipeline {
                 echo "Running Tests"
                  dir("tests/ui"){
                      sh "testcafe chromium:headless adminRegTest.js"
-                     //sh "testcafe chromium:headless adminLoginTest.js"
+                     sh "testcafe chromium:headless adminLoginTest.js"
                  }
             }
             post {
