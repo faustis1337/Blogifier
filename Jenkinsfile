@@ -23,7 +23,11 @@ pipeline {
         
         stage("Execute UI tests") {
             steps {
-                echo "Find a way to let Jenkins execute your TestCafé tests here"
+                echo "Running Tests"
+                 dir("tests/ui"){
+                     sh "testcafe chromium adminRegTest.js"
+                     sh "testcafe chromium adminLoginTest.js"
+                 }
             }
             post {
                 always {
