@@ -25,8 +25,8 @@ pipeline {
             steps {
                 echo "Running Tests"
                  dir("tests/ui"){
-                     sh "testcafe chromium adminRegTest.js"
-                     sh "testcafe chromium adminLoginTest.js"
+                     sh "testcafe "chrome:headless" adminRegTest.js"
+                     sh "testcafe "chrome:headless" adminLoginTest.js"
                  }
             }
             post {
